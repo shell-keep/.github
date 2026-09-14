@@ -8,7 +8,7 @@ Contact:
 Canonical: https://github.com/shell-keep
 Policy: https://github.com/shell-keep/.github/blob/main/SECURITY.md
 
-Hiring: https://jobs.srf.ch/de/jobs
+Hiring: 
 
 Expires: 2026-12-30T23:59:59.000Z
 Preferred-Languages: en, de

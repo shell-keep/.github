@@ -1,3 +1,4 @@
+```
 # In case of security incidents please contact the
 Contact:
 
@@ -11,3 +12,4 @@ Hiring: https://jobs.srf.ch/de/jobs
 
 Expires: 2026-12-30T23:59:59.000Z
 Preferred-Languages: en, de
+```

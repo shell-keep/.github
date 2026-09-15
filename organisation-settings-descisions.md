@@ -123,6 +123,7 @@ In case of token compromise (due to a vulnerability or malicious third-party Git
 5. Select ‘Read repository contents permission’
 6. Click ‘Save’
 
+// Repositories
 ### Repository Defaults (Org wide)
 **Threat Example**  
 Mainly to prevent deletion, alteration or malicious pushes to main branches.
@@ -137,3 +138,12 @@ Mainly to prevent deletion, alteration or malicious pushes to main branches.
   - Require branches to be up to date before merging
 - Restrict force pushes
 - Restrict deletions
+
+### No invitation of outside collaborators
+**Threat Example**  
+Inviting external collaborators could result in a loss of control over proprietary information and potentially expose the organization to security risks, such as data leaks.
+
+**Remidiation**  
+1. Make sure you are an enterprise owner
+2. Go to the policies page
+3. Under the “Repository outside collaborators” section - choose the “Enterprise Owners Only” or the “Organization Owners Only” option

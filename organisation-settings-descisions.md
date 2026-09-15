@@ -1,9 +1,13 @@
 # Github Org Security Setup
-
 ## Prelude
-https://best.openssf.org/SCM-BestPractices/github/
+This document records the security configuration decisions made for this GitHub organization, and the reasoning behind each one. 
+It's based on the [OpenSSF SCM Best Practices guide](https://best.openssf.org/SCM-BestPractices/github/).
+Rather than applying every recommendation blindly, each decision below documents *why* a given setting matters.
 
 ## Decisions
+
+Each decision is recorded with the threat it addresses and the setting chosen to mitigate it. 
+The goal is a complete picture of our actual security posture, not just the controls we turned on.
 
 // Organisation Level
 ### 2FA Enforced

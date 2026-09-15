@@ -13,9 +13,10 @@
 6. `Application Security Group` is the group that is allowed to access the App. In other words the group that will have access to the Github org.
 7. `Single-sign-on configuration needed` Yes  
   7.1 `Application Identifier Entity` is `https://github.com/orgs/<YOUR ORG NAME>`
-  7.2 `Sign On URL`
-  7.3 `Relay State`
-  7.4 `Logout URL`
-  7.5 `Attributes & claims`
+  7.2 `Reply URL` is `https://github.com/orgs/ORG/saml/consume`
+  7.3 `Sign On URL` is `https://github.com/orgs/ORG/sso`
+  7.4 `Relay State` leave empty
+  7.5 `Logout URL` leave empty
+  7.6 `Attributes & claims` leave empty
 8. `Provisioning` No
 9. `Kommentar/Ergänzende Informationen` Man kann den Admin auf die Entra Gruppe `srg-cyde-github-organisation` verweisen als Referenz.
